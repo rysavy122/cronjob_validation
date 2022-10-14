@@ -1,0 +1,27 @@
+#darkMode {
+    margin:50px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid aqua;
+    color: white;
+    color: #2E9AFE;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-top:300px;
+    filter: grayscale(100%);
+    transition: background-color 0.3s ease-in-out, filter 0.3s ease-in-out;
+
+}
+
+#darkMode:hover,
+#darkMode:focus {
+    filter: none; 
+    background-color: #282c34;
+    cursor: pointer;
+}
+
+#darkMode.clicked {
+    filter: none !important;
+    background-color: #282c34;
+
+}
